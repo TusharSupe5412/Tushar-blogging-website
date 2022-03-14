@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.tech.blog.entities.Message"/>
+    <fullyQualifiedTypeName name="com.tech.blog.dao.UserDao"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.tech.blog.entities.Category"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.Part"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.tech.blog.entities.User"/>
+    <fullyQualifiedTypeName name="com.tech.blog.dao.PostDao"/>
+    <fullyQualifiedTypeName name="com.tech.blog.helper.Helper"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="com.tech.blog.entities.Post"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.tech.blog.dao.LikeDao"/>
+    <fullyQualifiedTypeName name="com.tech.blog.helper.ConnectionProvider"/>
+</qualifiedTypeNameHistroy>

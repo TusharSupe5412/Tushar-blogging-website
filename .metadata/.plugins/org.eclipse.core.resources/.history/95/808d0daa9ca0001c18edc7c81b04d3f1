@@ -1,0 +1,17 @@
+<%@ page import="com.tech.blog.entities.*" %>
+<%@ page import="com.tech.blog.dao.*" %>
+<%@ page import="com.tech.blog.helper.*" %>
+<%@ page import="java.util.List" %>
+
+
+<%
+
+
+PostDao d = new PostDao(ConnectionProvider.getConnection());
+List<Post> posts = d.getAllPosts();
+
+
+
+
+
+%>

@@ -1,0 +1,8 @@
+1.Eclipse IDE.
+2.MySQL database.- MySQL workbench.
+3.Tomcat-10
+4.Java Core-Oops., 
+5.JDBC. 
+6.Servlet and JSP.
+7.HTML, CSS, bootstrap.
+

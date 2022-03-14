@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+body{
+	
+}
+
+.primary-background{
+	background: #2e3638!important;
+}
+
+.banner-background{
+	
+		clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 94%, 68% 91%, 31% 96%, 0 89%, 0 0);
+	}
+

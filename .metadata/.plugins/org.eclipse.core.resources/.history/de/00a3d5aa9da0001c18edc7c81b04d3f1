@@ -1,0 +1,49 @@
+<%@ page import="com.tech.blog.entities.*" %>
+<%@ page import="com.tech.blog.dao.*" %>
+<%@ page import="com.tech.blog.helper.*" %>
+<%@ page import="java.util.List" %>
+
+		<div class="row">
+
+
+	<%
+
+
+			PostDao d = new PostDao(ConnectionProvider.getConnection());
+			List<Post> posts = d.getAllPosts();
+			
+			for(Post p : posts ){
+				
+		%>
+				
+			<div class="col-md-6">
+			
+				<div class="card">
+				
+					<div class="card-body"> 
+					<h3><%= p.getpTitle() %></h3>
+					
+					
+					</div>
+				
+				</div>
+			
+			
+			
+			</div>
+				
+				
+				
+		<%
+				
+			}
+			
+
+
+
+
+
+	%>
+	
+	
+	</div>

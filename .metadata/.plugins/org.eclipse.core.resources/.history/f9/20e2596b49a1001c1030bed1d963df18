@@ -1,0 +1,29 @@
+package com.tech.blog.dao;
+import java.sql.*;
+public class LikeDao {
+
+	Connection con;
+	
+	
+	
+	public LikeDao(Connection con) {
+		super();
+		this.con = con;
+	}
+
+
+
+	public void insertLike(int pid , int uid) {
+		
+		try {
+			
+			String q = "insert into like(pid , uid) values( ? , ? )";
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+}
